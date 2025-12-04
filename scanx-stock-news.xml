@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://scanx.trade/stock-market-news/news-feeds/stock-news</id>
+    <title>Scanx – Stock News</title>
+    <updated>2025-12-04T20:09:07.077Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <icon>https://scanx.trade/stock-market-news/news-feeds/favicon.ico</icon>
+</feed>
