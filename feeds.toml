@@ -1,5 +1,48 @@
-[[feeds]]
-name = "stocks-in-action"
-url = "https://www.marketsmojo.com/news/stocks-in-action"
-title = "MarketsMojo – Stocks in Action (Custom RSS)"
-description = "Unofficial feed generated via Feed me up, Scotty!"
+[scanx-stock-news]
+title = "Scanx – Stock News"
+url = "https://scanx.trade/stock-market-news/news-feeds/stock-news"
+entrySelector = "app-news-card a.article-card"
+titleSelector = "span.title-hover"
+linkSelector = "*"   # ✅ use the entry itself as link
+
+[scanx-corporate-actions]
+title = "Scanx – Corporate Actions"
+url = "https://scanx.trade/stock-market-news/corporate-actions"
+entrySelector = "app-news-card a.article-card"
+titleSelector = "span.title-hover"
+linkSelector = "*"
+
+[scanx-earnings]
+title = "Scanx – Earnings"
+url = "https://scanx.trade/stock-market-news/earnings"
+entrySelector = "app-news-card a.article-card"
+titleSelector = "span.title-hover"
+linkSelector = "*"
+
+[scanx-orders-deals]
+title = "Scanx – Orders & Deals"
+url = "https://scanx.trade/stock-market-news/orders-deals"
+entrySelector = "app-news-card a.article-card"
+titleSelector = "span.title-hover"
+linkSelector = "*"
+
+[scanx-global]
+title = "Scanx – Global"
+url = "https://scanx.trade/stock-market-news/global"
+entrySelector = "app-news-card a.article-card"
+titleSelector = "span.title-hover"
+linkSelector = "*"
+
+[scanx-markets]
+title = "Scanx – Markets"
+url = "https://scanx.trade/stock-market-news/markets"
+entrySelector = "app-news-card a.article-card"
+titleSelector = "span.title-hover"
+linkSelector = "*"
+
+[scanx-ipo-news]
+title = "Scanx – IPO News"
+url = "https://scanx.trade/stock-market-news/ipo"
+entrySelector = "app-news-card a.article-card"
+titleSelector = "span.title-hover"
+linkSelector = "*"
