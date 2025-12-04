@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://scanx.trade/stock-market-news/markets</id>
     <title>Scanx – Markets</title>
-    <updated>2025-12-04T20:09:07.090Z</updated>
+    <updated>2025-12-04T20:13:11.196Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://scanx.trade/stock-market-news/favicon.ico</icon>
     <entry>
@@ -290,7 +290,7 @@
         <id>https://scanx.trade/stock-market-news/stock-market-news/earnings/jaguar-land-rover-reports-17-decline-in-uk-sales-for-november/26385012</id>
         <link href="https://scanx.trade/stock-market-news/stock-market-news/earnings/jaguar-land-rover-reports-17-decline-in-uk-sales-for-november/26385012"/>
         <updated>2025-12-04T20:09:00.740Z</updated>
-        <content type="html"><![CDATA[<div _ngcontent-ng-c1584887712="" class="news-container ng-star-inserted"><!----><div _ngcontent-ng-c1584887712="" class="content ng-star-inserted"><div _ngcontent-ng-c1584887712=""><span _ngcontent-ng-c1584887712="" class="primaryText truncate-text title-hover mat-subtitle-1">Jaguar Land Rover Reports 17% Decline in UK Sales for November</span><span _ngcontent-ng-c1584887712="" class="mat-caption-time forthText timestamp"> 10 hours ago <!----></span></div><app-ltp _ngcontent-ng-c1584887712="" _nghost-ng-c441403127="" class="ng-star-inserted" ngh="12"><!----></app-ltp><!----><!----></div><!----><!----></div><!----><!----><!----><!----><!---->]]></content>
+        <content type="html"><![CDATA[<div _ngcontent-ng-c1584887712="" class="news-container ng-star-inserted"><!----><div _ngcontent-ng-c1584887712="" class="content ng-star-inserted"><div _ngcontent-ng-c1584887712=""><span _ngcontent-ng-c1584887712="" class="primaryText truncate-text title-hover mat-subtitle-1">Jaguar Land Rover Reports 17% Decline in UK Sales for November</span><span _ngcontent-ng-c1584887712="" class="mat-caption-time forthText timestamp"> 11 hours ago <!----></span></div><app-ltp _ngcontent-ng-c1584887712="" _nghost-ng-c441403127="" class="ng-star-inserted" ngh="12"><!----></app-ltp><!----><!----></div><!----><!----></div><!----><!----><!----><!----><!---->]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[One Mobikwik Systems CFO Projects Positive EBITDA and Profit Turnaround]]></title>
