@@ -1,48 +1,125 @@
+[funfacts]
+title = "Wikipedia — did you know?"
+url = "https://en.wikipedia.org/wiki/Main_Page"
+entrySelector = "#mp-dyk > ul li"
+titleSelector = "b"
+linkSelector = "b a"
+
+[wikivoyage]
+title = "Wikivoyage recommendations"
+url = "https://en.wikivoyage.org/wiki/Main_Page"
+entrySelector = ".jcarousel-wrapper .jcarousel-item"
+titleSelector = "h2"
+linkSelector = "h2 a"
+
 [scanx-stock-news]
 title = "Scanx – Stock News"
 url = "https://scanx.trade/stock-market-news/news-feeds/stock-news"
 entrySelector = "app-news-card a.article-card"
 titleSelector = "span.title-hover"
-linkSelector = "*"   # ✅ use the entry itself as link
+linkSelector = "a.article-card"
+contentSelector = "article div[class*='content'], article section"
 
 [scanx-corporate-actions]
 title = "Scanx – Corporate Actions"
 url = "https://scanx.trade/stock-market-news/corporate-actions"
 entrySelector = "app-news-card a.article-card"
 titleSelector = "span.title-hover"
-linkSelector = "*"
+linkSelector = "a.article-card"
+contentSelector = "article div[class*='content'], article section"
 
 [scanx-earnings]
 title = "Scanx – Earnings"
 url = "https://scanx.trade/stock-market-news/earnings"
 entrySelector = "app-news-card a.article-card"
 titleSelector = "span.title-hover"
-linkSelector = "*"
+linkSelector = "a.article-card"
+contentSelector = "article div[class*='content'], article section"
 
 [scanx-orders-deals]
 title = "Scanx – Orders & Deals"
 url = "https://scanx.trade/stock-market-news/orders-deals"
 entrySelector = "app-news-card a.article-card"
 titleSelector = "span.title-hover"
-linkSelector = "*"
+linkSelector = "a.article-card"
+contentSelector = "article div[class*='content'], article section"
 
 [scanx-global]
 title = "Scanx – Global"
 url = "https://scanx.trade/stock-market-news/global"
 entrySelector = "app-news-card a.article-card"
 titleSelector = "span.title-hover"
-linkSelector = "*"
+linkSelector = "a.article-card"
+contentSelector = "article div[class*='content'], article section"
 
 [scanx-markets]
 title = "Scanx – Markets"
 url = "https://scanx.trade/stock-market-news/markets"
 entrySelector = "app-news-card a.article-card"
 titleSelector = "span.title-hover"
-linkSelector = "*"
+linkSelector = "a.article-card"
+contentSelector = "article div[class*='content'], article section"
 
 [scanx-ipo-news]
 title = "Scanx – IPO News"
-url = "https://scanx.trade/stock-market-news/ipo"
+url = "https://scanx.trade/stock-market-news/ipo-news"
 entrySelector = "app-news-card a.article-card"
 titleSelector = "span.title-hover"
-linkSelector = "*"
+linkSelector = "a.article-card"
+contentSelector = "article div[class*='content'], article section"
+
+[marketsmojo-stocks-in-action]
+title = "MarketsMojo – Stocks in Action"
+url = "https://www.marketsmojo.com/news/stocks-in-action"
+entrySelector = "a[href*='/news/']"
+titleSelector = "h2, h3"
+linkSelector = "a"
+contentSelector = "article, div[class*='content'], div[class*='body']"
+
+[marketsmojo-stock-recommendation]
+title = "MarketsMojo – Stock Recommendations"
+url = "https://www.marketsmojo.com/news/stock-recommendation"
+entrySelector = "a[href*='/news/']"
+titleSelector = "h2, h3"
+linkSelector = "a"
+contentSelector = "article, div[class*='content'], div[class*='body']"
+
+[marketsmojo-stock-market-news]
+title = "MarketsMojo – Stock Market News"
+url = "https://www.marketsmojo.com/news/stock-market-news"
+entrySelector = "a[href*='/news/']"
+titleSelector = "h2, h3"
+linkSelector = "a"
+contentSelector = "article, div[class*='content'], div[class*='body']"
+
+[marketsmojo-result-analysis]
+title = "MarketsMojo – Result Analysis"
+url = "https://www.marketsmojo.com/news/result-analysis"
+entrySelector = "a[href*='/news/']"
+titleSelector = "h2, h3"
+linkSelector = "a"
+contentSelector = "article, div[class*='content'], div[class*='body']"
+
+[marketsmojo-mojo-premium]
+title = "MarketsMojo – Mojo Premium"
+url = "https://www.marketsmojo.com/news/mojo-premium"
+entrySelector = "a[href*='/news/']"
+titleSelector = "h2, h3"
+linkSelector = "a"
+contentSelector = "article, div[class*='content'], div[class*='body']"
+
+[businessline-stock-markets]
+title = "BusinessLine – Stock Markets"
+url = "https://www.thehindubusinessline.com/markets/stock-markets/"
+entrySelector = "section article, .story-card"
+titleSelector = "h2, h3"
+linkSelector = "a"
+contentSelector = "article, div[class*='content'], div[class*='article-body']"
+
+[simplywallst-india-news]
+title = "Simply Wall St – India News"
+url = "https://simplywall.st/news/in"
+entrySelector = "a[href*='/stocks/in/']"
+titleSelector = "h2, h3"
+linkSelector = "a"
+contentSelector = "article, div[class*='content'], main div[class*='body']"
